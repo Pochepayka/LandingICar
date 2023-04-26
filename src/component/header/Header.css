@@ -1,0 +1,68 @@
+
+.header
+{   position:fixed;
+    width: 1448px;
+    height: 76px;
+    background-color: #3C3C40;
+    
+    /* Main_text */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    z-index: 10;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    /*float:left;*/
+}
+
+.header>img{
+    width: 200x;
+    height: 80px;
+   /* margin-left: 7.94%;*/
+    margin-left:115px;
+    float: left;
+}
+.header>.linksForBlocks {
+    /*width: 70%;
+    min-width: 865px;*/
+    width: 920px;
+    height: 76px;
+    margin-left:103px;
+    float: left;
+}
+.header>.linksForBlocks>p{
+    margin:0;
+    /*margin-left: 9.4%;*/
+    margin-left: 81px;
+    margin-top:26.5px;
+    float: left;    
+}
+
+.header>.linksForBlocks>.button {
+    margin-top: 20px !important;
+    padding: 6.5px 23.5px 6.5px 23.5px!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+        
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* background */
+    color: #3C3C40;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Main_color */
+    background: #22AAE1;
+    border-radius: 80px;
+}

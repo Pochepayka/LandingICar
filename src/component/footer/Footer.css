@@ -1,0 +1,51 @@
+
+.footer
+{   
+    width: 1448px;
+    height: 127px;
+    background-color: #3C3C40;
+}
+
+.footer>img{
+    /*width: 23%;
+    margin-left: 5%;*/
+    width: 183.35625px;
+    height: 127px;
+    margin-left: 72px;
+    float: left;
+}
+.footer>.right {
+    /*width: 30%;
+    margin-right: 10%;
+    min-width: 865px;*/
+    width: 350px;
+    height: 127px;
+    margin-right: 159px;
+    float: right;
+}
+.footer>.right>.lozung{
+    margin:0;
+    margin-top:16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    
+    text-align: right;
+
+    float: right;
+}
+.footer>.right>.number{
+    margin:0;
+    margin-top:19px;
+
+    /* Large_main_text */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    float: right;
+}

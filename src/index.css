@@ -1,0 +1,145 @@
+body {
+  color:aliceblue;
+  margin:0px;
+  padding:0px;
+}
+
+.allBlocks {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-color: rgb(33, 35, 43);
+
+}
+.allBlocks>div{
+  position: relative;
+  display:  block;
+  margin:0;
+  /*width: 100%;
+  min-width: 865px;*/
+  width: 1448px;
+  float: left;
+  overflow:hidden;
+
+  left: 50%;
+  margin-right: -724px;
+  margin-left: -724px;
+}
+
+p {
+  position: relative;
+  margin:0;
+  display: block;
+  font-family: 'Raleway';
+  font-style: normal;
+}
+
+.blue {
+  color: #22AAE1;
+}
+
+.white {
+  color:#FFFFFF;
+}
+
+.black {
+  color: #3C3C40;
+}
+
+.veryBig {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 73px;
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.big {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.large {
+  font-weight:700;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 47px;
+  /*text-align: center;*/
+  text-transform: uppercase;
+}
+
+.headText{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.normal {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.bold {
+  font-weight: 700!important;
+}
+
+.Right {
+  float:right;
+}
+
+.Left {
+  float:left;
+}
+
+.RightText {
+  
+  text-align: right;
+}
+
+.LeftText {
+  
+  text-align: left;
+}
+
+.fullWidthBlock {
+  width: 100%;
+}
+
+.opacity {
+  opacity: 0.2;
+}
+
+.marginBottom{
+  margin-bottom: 10px;
+}
+
+.marginTop{
+  margin-top: 20px;
+}
+
+.margin{
+  
+  margin-top:10px;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+
+
+
+wbr { display: inline-block; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("media/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-size: normal;
+  font-weight: normal;
+  font-style: bold;
+}
