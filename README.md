@@ -1,42 +1,31 @@
 <h1>LandingICar</h1>
 
-This graphical interface allows you to use a complex linguistic analysis software module as a universal tool. Provides access to 5 types of text analysis from any browser.
-
-The developed website works using API modules included in the [SemanticProgramModule](https://github.com/Pochepayka/SemanticProgramModule).
-
-The development of a graphical interface (GUI) is becoming a key element for the implementation of the semantic analysis software module in practical activities. 
-Its significance is determined by the multilevel nature of the analysis, which covers stages:
-<ul>
-<li>graphematic; </li>
-<li>morphological;</li> 
-<li>syntactic;</li>
-<li>semantic.</li>
-</ul>  
-Presenting the results of such processes as raw text data or console outputs makes it much more difficult to work with complex structures such as syntactic trees or semantic networks. The graphical interface solves this problem by converting information into interactive visual formats that make analysis transparent and interpretable even by untrained users.
+This is a modern landing page for a company specializing in auto-assembly. Developed in React JS using modern web technologies to ensure high performance and user convenience.
 
 <h2>Function</h2>
 
-<h3>Text input and loading</h3>
+<h3>Main sections</h3>
+<ul>
+ <li>About us (Welcome and brief description of services. Advantages of the company. Special offers.)</li>
+ <li>Our specialists (Specialist cards. Specific work areas for them.Experience. Specialization.)</li>
+ <li>Overview of services (Express selection. Diagnostics. Expert for the day. Turnkey car.)</li>
+  <li>Procedure (4 steps from applying to the best car for your money.)</li>
+  <li>Advantages of using autopilot (Save time. No grueling trips. Strict selection criteria. Communication with the client.)</li>
+  <li>Guarantees (Refund in case of failure. Legal purity. Technical guarantee.)</li>
+  <li>Customer reviews (Real cases of successful auto-selection. Rating and comments.)</li>
+  <li>Frequently Asked Questions (Registration procedure. Deadlines. Control. Restrictions. Cost.)</li>
+  <li>Contacts (Feedback form. Office location map. Contact information and work schedule.)</li>
+</ul>
 
-Support for manual text input via a text field. Uploading files in .txt format. The ability to clear the input field and reset the current analysis. 
+<h3>Technical Features</h3>
+<ul>
+ <li>Responsive design (Full support for mobile devices)</li>
+ <li>Fast loading (Optimized performance)</li>
+ <li>Interactive elements (Animations and smooth transitions)</li>
+ <li>Integration with CRM (Automatic sending of applications)</li>
+</ul>
+   
 
-<h3>Display of the analysis results</h3> 
-
-<h4>Graphematic level</h4>
-A table with tokens and their descriptors (RE, LLE, DC, PUN, etc.). 
-
-<h4>Morphological level</h4>
-Details for each word: lemma, part of speech, grammemes (case, number, gender, tense). 
-
-<h4>Syntactic level</h4>
-Interactive dependency tree with nodes (verbs, nouns) and connections (subject, complement), school format for visualizing the result of syntactic analysis, output of information about the text. 
-
-<h4>Semantic level</h4>
-Visualization of a semantic network in the form of a table of links.
-
-<h3>Exporting the results. </h3>
-
-Saving data in JSON/XML formats for further software processing. CSV is a tabular representation of tokens and descriptors. SVG/PNG reports with visualization of trees. GRAPHML is a graph representation format with information about nodes.
 
 <h2>Launch</h2>
 To run the web interface on the local host in development mode, use the command:
@@ -46,25 +35,17 @@ After open [http://localhost:3000](http://localhost:3000) to view it in your bro
 
 
 <h2>Example</h2>
-<h3>Main page</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_main_page.png>
 
-<h3>Graphematic result</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_graph_analyze.png>
+<h3>About us</h3>
+<img src = https://github.com/Pochepayka/LandingICar/blob/main/src/media/image/GUI_About.png>
 
+<h3>Services</h3>
+<img src = https://github.com/Pochepayka/LandingICar/blob/main/src/media/image/GUI_Services.png>
 
-<h3>Morphological result</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_morph_analyze.png>
+<h3>Reviews</h3>
+<img src = https://github.com/Pochepayka/LandingICar/blob/main/src/media/image/GUI_Request.png>
 
-<h3>Sintactic result (school)</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_school_sintaxis.png>
-
-<h3>Sintactic result (tree)</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_tree_sintaxis.png>
-
-<h3>Semantic result</h3>
-<img src = https://github.com/Pochepayka/AnalyzeRusText/blob/master/src/media/png/GUI_sematic_analyze.png>
-
-
+<h3>Contacts</h3>
+<img src = https://github.com/Pochepayka/LandingICar/blob/main/src/media/image/GUI_Contacts.png>
 
 
